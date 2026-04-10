@@ -5,8 +5,13 @@
   "type": "module",
   "main": "generate.js",
   "scripts": {
-    "start": "node generate.js"
+    "start": "node generate.js",
+    "wizard": "node lyric-generator.js"
   },
-  "keywords": ["minimax", "music", "ai", "api"],
-  "license": "MIT"
+  "keywords": ["minimax", "music", "ai", "api", "tui"],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "enquirer": "^2.4.1"
+  }
 }
