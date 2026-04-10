@@ -1,0 +1,12 @@
+{
+  "name": "minimax-music-demo",
+  "version": "1.0.0",
+  "description": "Demo of the MiniMax Music Generation API",
+  "type": "module",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js"
+  },
+  "keywords": ["minimax", "music", "ai", "api"],
+  "license": "MIT"
+}
